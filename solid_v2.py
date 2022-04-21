@@ -11,7 +11,9 @@ Open/Closed : Objects or entities should be open for extension but closed for mo
     
 '''
 import logging
+from unittest import TestCase
 
+TestCase
 try:
     logging.basicConfig(level=logging.INFO, format="{asctime} | {name} | {levelno} - {funcName} | {lineno} | {message}", style='{')
     logger = logging.getLogger("SOLID")
